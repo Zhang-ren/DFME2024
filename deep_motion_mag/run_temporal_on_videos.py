@@ -25,6 +25,6 @@ def run_temporal_on_videos(base_dir, output_base_dir, exp_name="o3f_hmhm2_bg_qno
 if __name__ == "__main__":
 # base_dir = "/home/data2/MEGC-2019/DATASET/test_data_A"
 # output_base_dir = "/home/data2/MEGC//DFME2024_test_5"  # 修改为你的输出目录
-    base_dir = "/home/data2/MEGC-2019/DATASET/test_data_B/"
-    output_base_dir = "/home/data2/MEGC/DFME_B_10"
+    base_dir = "../test_data_B/"
+    output_base_dir = "../DFME_B_10"
     run_temporal_on_videos(base_dir, output_base_dir)
